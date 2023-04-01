@@ -11,12 +11,14 @@
   margin-bottom: 33px;
   max-width: 580px;
 }
-
+.different__text{
+    padding-top: 94px;
+}
 .diagram__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 94px;
+
 }
 
 .diagram__text-two {
@@ -87,7 +89,10 @@
   justify-content: center;
   gap: 32px;
 }
-
+.yellow__wrap{
+    display: flex;
+    justify-content: flex-end;
+}
 .yellow__h1 {
   font-family: var(--rr);
   font-size: 86px;
@@ -163,7 +168,7 @@
     
 }
 .boxstwo__wrap{
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .box__round-two{
