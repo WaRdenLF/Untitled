@@ -1,4 +1,20 @@
-.interview{
-    background:#E5E8EB;
-    
+.interview {
+  background: #e5e8eb;
+}
+
+.interview__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 99px;
+}
+
+
+.inter__h3 {
+  font-family: var(--rr);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 4px;
+  color: var(--green);
 }
