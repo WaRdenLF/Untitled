@@ -138,6 +138,7 @@
   width: 530px;
   background: #134a45;
   border-bottom: 8px solid var(--blue);
+  position: relative;
 }
 
 .four__h1 {
@@ -156,9 +157,19 @@
     line-height: 28px;
     color: #E5E8EB;
     max-width: 269px;
+    position: relative;
+    z-index: 1;
  
     
 }
 .boxstwo__wrap{
     margin-top: -35px;
+}
+
+.box__round-two{
+    position: absolute;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    margin-right: 64px;
 }
