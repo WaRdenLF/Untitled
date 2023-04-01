@@ -1,4 +1,152 @@
-.digram{
+.diagram {
     background: #CFD4D8;
+
+
+}
+
+.diagram__text {
+    font-family: var(--rr);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    color: var(--green);
+    margin-bottom: 33px;
+    max-width: 580px;
+
+
+}
+
+.diagram__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 94px;
+}
+
+.diagram__text-two {
+    font-family: var(--rr);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--green);
+    max-width: 467px;
+    margin-bottom: 58px;
+
+
+}
+
+.box__one {
+    height: 416px;
+    width: 530px;
+    background: var(--blue);
+    border-bottom: 8px solid var(--green);
+    position: relative;
+
+}
+
+.boxs__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.number__texts {
+    padding: 29px 0 0 50px;
+}
+
+.number {
+    font-family: var(--rr);
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 80px;
+    color: var(--green);
+    margin-bottom: 43px;
+}
+
+.number__text {
+    font-family: var(--rr);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--green);
+    max-width: 296px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.box__round {
+    position: absolute;
+    bottom: 10%;
+    margin-right: 57px;
+    right: 0;
+
+}
+
+.box__two {
+    height: 264px;
+    width: 371px;
+    background: #D0C2BB;
+    border-bottom: 8px solid #B8A086;
+
+}
+
+.box__wrap {
+    display: grid;
+    justify-content: center;
+    gap: 32px;
+}
+
+.yellow__h1 {
+    font-family: var(--rr);
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 80px;
+    color: var(--green);
+    margin-bottom: 43px;
+
+
+
+}
+
+.yellow__text {
+    font-family: var(--rr);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--green);
+
+
+}
+
+.box__third {
+    height: 292px;
+    width: 318px;
+    background: #B961CD;
+    border-bottom: 8px solid #7F3490;
+
+
+
+
+}
+
+.pink__h1 {
+    font-family: var(--rr);
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #E5E8EB;
+    margin-bottom: 43px;
+}
+
+.pink__text {
+    font-family: var(--rr);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #E5E8EB;
+    max-width: 217px;
+
 
 }
