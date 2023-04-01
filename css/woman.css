@@ -1,0 +1,115 @@
+.woman {
+  background: var(--green);
+}
+
+.poster {
+  margin-top: -10px;
+  margin-left: 12px;
+  position: relative;
+}
+
+.violet {
+  background: var(--purple);
+  height: 124px;
+  position: absolute;
+  margin-top: -112px;
+  width: 1140px;
+  padding: 28px 0 24px;
+}
+
+.violet__wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.subs {
+  position: relative;
+}
+.sub {
+  position: absolute;
+  font-family: var(--rr);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.sub2 {
+  font-family: var(--rr);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  max-width: 285px;
+}
+
+.sub__free {
+  font-family: var(--rr);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #b7e3ff;
+  margin-left: 79px;
+}
+
+.get {
+  font-family: var(--rr);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+}
+.gets {
+  font-family: var(--rr);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.cribe {
+  font-family: var(--rr);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #e5e8eb;
+}
+.black__woman {
+  padding-bottom: 100px;
+}
+
+.black__woman-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.black__woman-text{
+  padding-top: 71px;
+}
+.need {
+  font-family: var(--rr);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #e5e8eb;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.health {
+  font-family: var(--rr);
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 57px;
+  color: #e5e8eb;
+  max-width: 393px;
+  margin-bottom: 35px;
+}
+.med {
+  font-family: var(--rr);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #E5E8EBB0;
+  max-width: 456px;
+
+}

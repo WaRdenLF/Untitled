@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family:var(--rr);
+}
+
+:root{ 
+    --rr: 'RR', sans-serif;
+    --green:#134A45;
+    --blue: #96C9E9;
+    --purple: #B961CD;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}

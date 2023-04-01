@@ -1,0 +1,143 @@
+.banner__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 29px;
+  position: relative;
+}
+
+.image__src {
+  display: grid;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+.banner {
+  padding-bottom: 30px;
+}
+
+.human1 {
+  padding-bottom: 38px;
+}
+
+.round {
+  border-radius: 900px;
+  background-color: var(--green);
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 4%;
+  right: -20%;
+  left: auto;
+  z-index: -5;
+}
+
+.banner__h1 {
+  font-family: var(--rr);
+  font-size: 63px;
+  font-weight: 400;
+  line-height: 73px;
+  color: var(--green);
+  margin-bottom: 40px;
+}
+
+.human__round {
+  border-radius: 900px;
+  background-color: var(--purple);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  left: 15%;
+}
+
+.banner__text {
+  font-family: var(--rr);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--green);
+  margin-bottom: 57px;
+}
+
+.banner__btn {
+  height: 30px;
+  width: 221px;
+  background: var(--green);
+  font-family: var(--rr);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: white;
+  padding-left: 25px;
+}
+
+.line {
+  margin-top: 36px;
+}
+
+.wrapper {
+  background: #e5e8eb;
+}
+
+.wrapper__border {
+  border-bottom: 1px solid #14464157;
+  padding-bottom: 70px;
+}
+
+.wrapper__h3 {
+  font-family: var(--rr);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--green);
+  margin-top: 39px;
+}
+.wrapper__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.wrapper__btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 9000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--blue);
+}
+
+.wrapper__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.logo__wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 74px 0 20px;
+}
+
+.slide {
+  font-family: var(--rr);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--green);
+  padding-bottom: 34px;
+
+}
