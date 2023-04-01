@@ -5,10 +5,8 @@
 .interview__wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-top: 99px;
 }
-
 
 .inter__h3 {
   font-family: var(--rr);
@@ -17,4 +15,55 @@
   line-height: 20px;
   letter-spacing: 4px;
   color: var(--green);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.inter__text {
+  font-family: var(--rr);
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 57px;
+  color: var(--green);
+  margin-bottom: 35px;
+}
+.inter__text-two {
+  font-family: var(--rr);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--green);
+  max-width: 407px;
+  margin-bottom: 19px;
+}
+
+.inter__text-three {
+  font-family: var(--rr);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--green);
+  max-width: 409px;
+  margin-bottom: 62px;
+
+}
+
+.circle{
+  margin-left: 85px;
+}
+
+.man{
+  display: flex;
+  padding-bottom: 9px;
+  border-bottom: 10px solid #B961CD;
+  max-width: 550px;
+  height: 476px;
+  position: relative;
+
+}
+
+.corner{
+  position: absolute;
+    margin-left: -96px;
+
 }
