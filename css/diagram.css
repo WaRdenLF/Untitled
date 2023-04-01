@@ -1,5 +1,6 @@
 .diagram {
   background: #cfd4d8;
+  margin-bottom: 99px;
 }
 
 .diagram__text {
@@ -11,16 +12,17 @@
   margin-bottom: 33px;
   max-width: 580px;
 }
-.different__text{
-    padding-top: 94px;
+.different__text {
+  padding-top: 94px;
 }
 .diagram__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-
+.boxes {
+  padding-bottom: 120px;
+}
 .diagram__text-two {
   font-family: var(--rr);
   font-size: 20px;
@@ -30,7 +32,9 @@
   max-width: 467px;
   margin-bottom: 58px;
 }
-
+.box{
+  padding-bottom: 120px;
+}
 .box__one {
   height: 416px;
   width: 530px;
@@ -89,9 +93,9 @@
   justify-content: center;
   gap: 32px;
 }
-.yellow__wrap{
-    display: flex;
-    justify-content: flex-end;
+.yellow__wrap {
+  display: flex;
+  justify-content: flex-end;
 }
 .yellow__h1 {
   font-family: var(--rr);
@@ -134,9 +138,9 @@
   color: #e5e8eb;
   max-width: 217px;
 }
-.boxtwo__wrap{
-    display: grid;
-    gap: 40px;
+.boxtwo__wrap {
+  display: grid;
+  gap: 40px;
 }
 .box__four {
   height: 388px;
@@ -151,30 +155,32 @@
   font-size: 85px;
   font-weight: 400;
   line-height: 80px;
-  color:  #E5E8EB;
+  color: #e5e8eb;
   margin-bottom: 43px;
 }
 
-.four__text{
-    font-family: var(--rr);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #E5E8EB;
-    max-width: 269px;
-    position: relative;
-    z-index: 1;
- 
-    
+.four__text {
+  font-family: var(--rr);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #e5e8eb;
+  max-width: 269px;
+  position: relative;
+  z-index: 1;
 }
-.boxstwo__wrap{
-    margin-top: -52px;
+.boxstwo__wrap {
+  margin-top: -52px;
 }
 
-.box__round-two{
-    position: absolute;
-    position: absolute;
-    right: 0;
-    bottom: 10%;
-    margin-right: 64px;
+.box__round-two {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  margin-right: 64px;
+}
+
+.fall__back{
+  background: #508883;
+  
 }
