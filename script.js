@@ -1,7 +1,7 @@
 let offset = 0
-const sliderLine = document.querySelector ('.card__wrap')
+const sliderLine = document.querySelector ('.card__menu')
 
-document.querySelector('.wrapper__btn').addEventListener('click' , function(){
+document.querySelector('.wrapper__btn').addEventListener('click' , function() {
     offset = offset + 256
     if (offset > 768) {
         offset = 0
@@ -9,3 +9,5 @@ document.querySelector('.wrapper__btn').addEventListener('click' , function(){
     }
     sliderLine.style.left = -offset + 'px'
 })
+
+
