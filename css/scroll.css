@@ -1,6 +1,7 @@
 .scroll {
     background: #CFD4D8;
     padding: 94px 0 100px;
+    margin-bottom: 99px;
 }
 
 .scroll__wrap {
@@ -200,7 +201,19 @@
 
 }
 
-.card{
+.card {
     position: relative;
     overflow: hidden;
+}
+
+.more {
+    font-family:var(--rr);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: var(--green);
+    margin-bottom: 85px;
+
 }
