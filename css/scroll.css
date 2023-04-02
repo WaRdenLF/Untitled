@@ -32,7 +32,10 @@
     width: 340px;
     background: var(--green);
 }
-
+.cards__one{
+    position: relative;
+    transition: left .3s ease ;
+}
 .card__text {
     padding-top: 40px;
     padding-left: 40px;
