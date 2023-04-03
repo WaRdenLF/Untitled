@@ -66,4 +66,10 @@
 
 .green__back{
     width: 100%;
+    display: flex;
+}
+
+.footer{
+    background:var(--green);
+
 }
