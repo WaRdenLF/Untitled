@@ -1,28 +1,69 @@
-footer {
-    background: #96C9E9;
-    padding-top: 114px;
+.blues {
+  background: #96c9e9;
+  padding-top: 114px;
 }
 
 .want {
-    font-family: var(--rr);
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 57px;
-    text-align: center;
-    color: var(--green);
-    max-width: 726px;
-    margin: 0 auto;
-    padding-bottom: 16px;
-
+  font-family: var(--rr);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 57px;
+  text-align: center;
+  color: var(--green);
+  max-width: 726px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .into {
-    font-family: var(--rr);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: center;
-    color: var(--green);
-    padding-bottom: 45px;
+  font-family: var(--rr);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: var(--green);
+  margin-bottom: 45px;
+}
 
+.btn {
+  padding: 1px 95px 1px 45px;
+  display: flex;
+  margin: 0 auto;
+  background: var(--green);
+  border: 1px solid var(--green);
+  transition: 0.3s;
+}
+
+.btn__text {
+  font-family: var(--rr);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 57px;
+  color: white;
+}
+
+.btn:hover{
+    background: #96c9e9;
+    color: var(--green);
+}
+
+.blues__text{
+    position: relative;
+}
+
+.line3{
+    position: absolute;
+    right: 0;
+    margin-top: -40px;
+}
+
+.blue__green{
+    background: #96c9e9;
+    position: relative;
+    padding-top: 393px;
+}
+
+
+.green__back{
+    width: 100%;
 }

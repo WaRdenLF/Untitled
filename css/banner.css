@@ -78,8 +78,14 @@
   text-align: left;
   color: white;
   padding-left: 25px;
+  border: 1px solid var(--green);
+  transition: 0.3s;
 }
-
+.banner__btn:hover{
+  color:var(--green);
+  background: #ffffff;
+  border: 1px solid var(--green);
+}
 .line {
   margin-top: 36px;
 }
