@@ -8,7 +8,4 @@ document.querySelector('#prev-btn').addEventListener('click', function () {
         offset = 0
 
     }
-
-
- 
 })
