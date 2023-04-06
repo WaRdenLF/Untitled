@@ -6,6 +6,11 @@ document.querySelector('#prev-btn').addEventListener('click', function () {
     offset = offset + 256
     if (offset > 768) {
         offset = 0
-
     }
+
+   
+
+   
+
+   
 })
