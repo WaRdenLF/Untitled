@@ -187,13 +187,18 @@
 .footer__menu {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  gap: 66px;
+
 }
 
 .footer__logo {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 19px;
+  margin-bottom: -20%;
+
 }
 
 .footer__menu-all {
