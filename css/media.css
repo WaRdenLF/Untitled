@@ -1,63 +1,83 @@
 @media screen and (max-width: 768px) {
-    .header__wrap{
-        display: flex;
-        flex-direction: column;
-    }
+  .header__wrap {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .menu__link{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
+  .menu__link {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 
-    .menu__log {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-    }
+  .menu__log {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
 }
-
 
 @media screen and (max-width: 505px) {
-    .banner__wrap{
-        display: flex;
-        flex-direction: column;
-    }
-    .banner__h1{
-        font-size: 30px;
-        margin: 0 auto;
-    }
-    .banner__text{
-        font-size:12px ;
-        margin-bottom: 20px;
-    }
-    .line{
-        max-width: 250px;
-    }
+  .banner__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner__h1 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .banner__text {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .line {
+    max-width: 250px;
+  }
 
-    .image{
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        margin-top: 40px;
-    }
-    
-    .human1{
-        padding: 0;
-    }
+  .image {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
 
-    .image__src{
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-    }
+  .human1 {
+    padding: 0;
+  }
 
-    .human__round{
-        left: 0;
-        position: absolute;
-    }
+  .image__src {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .human__round {
+    left: 0;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .wrapper__text {
+    display: grid;
+  }
+  .wrapper__h3{
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .wrapper__btns{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo__wrap{
+    margin: 38px 0 29px;
+  }
+
+  .slide{
+    font-size: 12px;
+  }
 
 }
-    
