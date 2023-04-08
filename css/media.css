@@ -81,3 +81,47 @@
   }
 
 }
+
+@media screen and (max-width:505px) {
+    .violet{
+        width: 470px;
+        height: 195px;
+        padding: 57px 0 24px;
+    }
+
+    .violet__wrap{
+        display: flex;
+        align-items: center;
+        gap:5px;
+        margin-top: -43px;
+        flex-direction: column;
+    }
+    .black__woman{
+        padding-top: 50px;
+
+    }
+
+    .black__woman-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .need{
+        margin-bottom: 25px;
+        font-size: 10px;
+    }
+
+    .health{
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .med{
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+   
+
+    
+}
+
+
