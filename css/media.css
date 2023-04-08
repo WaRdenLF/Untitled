@@ -25,7 +25,10 @@
         flex-direction: column;
     }
     .banner__h1{
-        font-size: 15px;
+        font-size: 30px;
+    }
+    .banner__text{
+        font-size:12px ;
     }
 
     .image{
