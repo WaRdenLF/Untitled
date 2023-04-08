@@ -26,9 +26,14 @@
     }
     .banner__h1{
         font-size: 30px;
+        margin: 0 auto;
     }
     .banner__text{
         font-size:12px ;
+        margin-bottom: 20px;
+    }
+    .line{
+        max-width: 300px;
     }
 
     .image{
