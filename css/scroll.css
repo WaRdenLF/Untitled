@@ -22,15 +22,17 @@
 
 .card__wrap {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 40px
+    gap: 40px;
+    cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 .card__one {
     height: 524px;
     width: 340px;
     background: var(--green);
+   
 }
 .cards__one{
     position: relative;
