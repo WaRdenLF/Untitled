@@ -18,7 +18,8 @@
     }
 }
 
-@media screen and (max-width:506px) {
+
+@media screen and (max-width: 501px) {
     .banner__wrap{
         display: flex;
         flex-direction: column;
