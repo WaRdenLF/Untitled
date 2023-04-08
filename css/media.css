@@ -19,10 +19,13 @@
 }
 
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 506px) {
     .banner__wrap{
         display: flex;
         flex-direction: column;
+    }
+    .banner__h1{
+        font-size: 30px;
     }
 
     .image{
