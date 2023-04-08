@@ -20,7 +20,7 @@
 }
 
 
-@media screen and (max-width: 506px) {
+@media screen and (max-width: 505px) {
     .banner__wrap{
         display: flex;
         flex-direction: column;
@@ -40,7 +40,24 @@
     .image{
         display: flex;
         flex-direction: column;
+        gap: 25px;
         margin-top: 40px;
     }
     
+    .human1{
+        padding: 0;
+    }
+
+    .image__src{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .human__round{
+        left: 0;
+        position: absolute;
+    }
+
 }
+    
