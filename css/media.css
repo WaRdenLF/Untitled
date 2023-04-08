@@ -7,6 +7,7 @@
     .menu__link{
         display: flex;
         flex-direction: column;
+        gap: 15px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -33,7 +34,7 @@
         margin-bottom: 20px;
     }
     .line{
-        max-width: 300px;
+        max-width: 250px;
     }
 
     .image{
