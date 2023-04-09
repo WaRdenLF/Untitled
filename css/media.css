@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (max-width:501px) {
+@media screen and (max-width:484px) {
     .violet{
         width: 447px;
         height: 195px;
@@ -122,9 +122,21 @@
     .black__woman-img{
       width: 420px;
     }
-   
-
-    
 }
 
+
+@media screen and (max-width: 484px){
+  .the__text-two {
+    font-size: 9px;
+    margin-bottom: 15px;
+  }
+  .the__text-two{
+    font-size: 22px;
+  }
+
+  .color__wrap{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
