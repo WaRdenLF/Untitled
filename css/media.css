@@ -84,7 +84,7 @@
 
 @media screen and (max-width:501px) {
     .violet{
-        width: 470px;
+        width: 447px;
         height: 195px;
         padding: 57px 0 24px;
     }
@@ -118,6 +118,9 @@
     .med{
         font-size: 15px;
         margin-bottom: 22px;
+    }
+    .black__woman-img{
+      width: 420px;
     }
    
 
