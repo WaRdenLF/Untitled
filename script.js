@@ -28,7 +28,7 @@ arrowIcons = document.querySelectorAll('.prev-btn');
 let isDragStart = false,
     prevPageX, prevScrollLeft;
 
-let firstImgWidth = firstImg.clientWidth + 500;
+let firstImgWidth = firstImg.clientWidth + 550;
 
 arrowIcons.forEach((icon) => {
     icon.addEventListener('click', () => {
